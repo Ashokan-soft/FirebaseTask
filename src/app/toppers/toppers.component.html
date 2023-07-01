@@ -1,0 +1,15 @@
+<h2>Toppers</h2>
+<table class="table table-light">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Score</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let topper of toppersList">
+            <td>{{ topper.name }}</td>
+            <td>{{ topper.score }}</td>
+        </tr>
+</tbody>
+</table>

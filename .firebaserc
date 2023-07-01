@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "fir-project-a9d76": {
+      "hosting": {
+        "FirebaseTask": [
+          "fir-project-a9d76"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "fir-project-a9d76"
+  }
+}

@@ -1,0 +1,18 @@
+<div class="container mt-3">
+    <form [formGroup]="userform">
+        <label class="labels" for="">Name:</label>
+        <input type="text" class="form-control" formControlName="Name">
+        <label class="labels" for="">Age:</label>
+        <input type="text" class="form-control" formControlName="Age">
+        <label class="labels"for="">Score:</label>
+        <input type="text" class="form-control" formControlName="Score">
+        <label class="labels"for="">User Id</label>
+        <input type="text" class="form-control" formControlName="user_id">
+        <div class="text-center mt-2">
+            <button class="btn btn-primary" (click)="Submit(userform.value)">Submit</button>
+            &nbsp;
+            <button class="btn btn-primary" (click)="Clear()">Clear</button>
+            <!-- <button class="btn btn-primary" (click)="Submit(userform.value)">Add User</button> -->
+        </div>
+    </form>
+</div>

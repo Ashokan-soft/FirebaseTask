@@ -1,0 +1,17 @@
+<h2>Winners</h2>
+<table class="table table-light">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Score</th>
+        </tr>
+    </thead>
+    <tbody>
+  <tr *ngFor="let winner of winnersList">
+    <td>{{ winner.name }}</td>
+    <td>{{ winner.score }}</td>
+  </tr>
+  <tbody>
+</table>
+
+  
